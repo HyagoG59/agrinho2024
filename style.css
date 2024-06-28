@@ -45,3 +45,15 @@ align-items: center;
     gap: 20px;
 
 }
+
+.containerelementos {
+    text-align: center;
+
+}
+
+.elementosimagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
