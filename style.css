@@ -33,27 +33,23 @@ align-items: center;
 }
 
 .sobre_texto{
-    padding: 40px;
 
+    padding: 40px;
 }
 
-.elementos {
+.elementos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-
+    padding: 20px;
 }
-
-.containerelementos {
+.elementos__div{
     text-align: center;
-
 }
-
-.elementosimagem {
+.elementos__imagem{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-
 }
