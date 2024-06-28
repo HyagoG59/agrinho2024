@@ -36,3 +36,10 @@ align-items: center;
     padding: 20px;
 
 }
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
