@@ -1,13 +1,9 @@
-:root {
-    --cor-fundo: #333333;
-    --cor-texto: #ffffff;
 
-}
 
 body{
 
-    background-color: var(--cor-fundo)
-    color: var(--cor-texto);
+    background-color: #333333;
+    color: white;
 }
 
 .cabecalho{
