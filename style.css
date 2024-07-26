@@ -21,7 +21,7 @@ padding: 20px;
 }
 
 .cabecalho-menu-listaitem{
-
+    font-style: none;
     display: inline;
     text-transform: uppercase;
     margin: 30px;
