@@ -83,3 +83,11 @@ flex-wrap: wrap;
     height: 300px;
     border-radius: 10px;
 }
+
+.elementos__texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
