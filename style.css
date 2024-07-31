@@ -1,6 +1,6 @@
 :root {
     --cor-secundaria: #21a1017a;
-    --cor-primaria: #acacac;
+    --cor-primaria: #535353;
     --cor-texto: #fff
 
 }
@@ -50,7 +50,7 @@ header{
 
 .sobre_texto{
   text-align: justify;
-  width: 400px ; 
+  width: 500px ; 
   padding: 20px; 
 }
 
