@@ -1,20 +1,22 @@
-body{
-
-    background-color: rgb(183, 176, 176);/*coloca uma cor de fundo*/
-
+body {
+    background-color: rgb(183, 176, 176); /* Cor de fundo para todo o corpo da página */
+    font-family: Arial, sans-serif; /* Especifica uma fonte genérica */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove padding padrão do corpo */
 }
 
-.cabecalho{
-    display: flex;/*muda a disposição do elementos para horizontal*/
+.cabecalho {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff; /* Fundo branco para o cabeçalho */
+    padding: 10px 20px; /* Espaçamento interno do cabeçalho */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o cabeçalho */
 }
 
-.cabecalho-imagem{
-width: 200px;
-height: 200px;
-padding: 20px;
-
+.cabecalho-imagem {
+    width: 100px; /* Tamanho da imagem do cabeçalho */
+    height: auto; /* Altura automática */
 }
 
 .cabecalho-menu-listaitem {
@@ -22,36 +24,33 @@ padding: 20px;
     margin: 0 15px;
 }
 
-.sobre{
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.sobre_texto{
-
-    padding: 40px;
-}
-
-.elementos{
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+}
+
+.sobre_imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre_texto {
+    padding: 0 20px; /* Espaçamento interno para o texto ao redor da imagem */
+}
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha itens ao topo */
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
-.elementos__div{
-    text-align: center;
-}
-.elementos__imagem{
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-}
 
-.sobre_imagem {
-    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
-    height: auto; /* Mantém a proporção original da imagem */
+.elementos__div {
+    text-align: center;
+    width: 300px; /* Largura fixa para os elementos */
 }
