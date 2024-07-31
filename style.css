@@ -1,12 +1,14 @@
 :root {
     --cor-secundaria: #21a1017a;
     --cor-primaria: #acacac;
+    --cor-texto: #fff
 
 }
 
 body{
     width:100%;
     background-color: var(--cor-primaria);
+    color: var(--cor-texto);
 
 }
 
