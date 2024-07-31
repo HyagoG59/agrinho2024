@@ -42,7 +42,8 @@ header{
 
 .sobre_texto{
   text-align: justify;
-  width: 400px ;  
+  width: 400px ; 
+  padding: 20px; 
 }
 
 .elementos{
