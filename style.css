@@ -1,56 +1,75 @@
-body {
-    background-color: rgb(183, 176, 176); /* Cor de fundo para todo o corpo da página */
-    font-family: Arial, sans-serif; /* Especifica uma fonte genérica */
-    margin: 0; /* Remove margens padrão do corpo */
-    padding: 0; /* Remove padding padrão do corpo */
+body{
+    width:100%;
+    background-color: rgb(132, 135, 137);
+
 }
 
-.cabecalho {
+header{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #fff; /* Fundo branco para o cabeçalho */
-    padding: 10px 20px; /* Espaçamento interno do cabeçalho */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o cabeçalho */
+    background-color: rgb(222, 168, 202);
+    padding: 20px;
+    align-items: center;
 }
 
-.cabecalho-imagem {
-    width: 100px; /* Tamanho da imagem do cabeçalho */
-    height: auto; /* Altura automática */
+
+.cabecalho_imagem{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
 }
 
-.cabecalho-menu-listaitem {
-    display: inline-block;
-    margin: 0 15px;
+.cabecalho_menu-listaitem{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
 
-.sobre {
+.sobre{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
 
-.sobre_imagem {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.sobre_imagem{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
 }
 
-.sobre_texto {
-    padding: 0 20px; /* Espaçamento interno para o texto ao redor da imagem */
+.sobre_texto{
+  text-align: justify;
+  width: 400px ;  
 }
 
-.elementos {
+.elementos{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.container{
+ border: 2px solid black; 
+ padding: 20px;
+ text-align: center;
+}
+
+.elementos{
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinha itens ao topo */
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
-
-.elementos__div {
+.elementos__div{
     text-align: center;
-    width: 300px; /* Largura fixa para os elementos */
+}
+.elementos__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
 }
