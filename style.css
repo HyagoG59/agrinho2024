@@ -38,6 +38,13 @@ header {
     margin-left: 20px;
 }
 
+.cabecalho_menu-listaitem a:hover{
+    color: #535353;
+    text-decoration: underline;
+    text-shadow: 10px 10px 16px #000;
+
+}
+
 .sobre {
     display: flex;
     justify-content: center;
